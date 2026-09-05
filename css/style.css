@@ -1,0 +1,11 @@
+.listItem {
+  display: flex;
+  gap:15px;
+}
+
+/* //once the check box is checked */
+.checkbox:checked + p{
+  text-decoration: line-through;
+  color: #888;
+}
+

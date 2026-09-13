@@ -16,9 +16,9 @@ function addTask (){
         const newSection = document.createElement('section');
         newSection.classList.add('listItem');
 
-        const checkbox = document.createElement('input');
-        checkbox.classList.add('checkbox'); //create class named checkbox 
-        checkbox.type = 'checkbox'; //change input default type from text to checkbox
+        // const checkbox = document.createElement('input');
+        // checkbox.classList.add('checkbox'); //create class named checkbox 
+        // checkbox.type = 'checkbox'; //change input default type from text to checkbox
 
         //create p for input
         const item = document.createElement('p')
@@ -26,17 +26,23 @@ function addTask (){
 
         //create a button in html for delete feature
         //come with class for design purpose
-        //
-        const deleteButton = document.createElement('button')
-        deleteButton.classList.add('deleteButton')
-        deleteButton.textContent = 'delete';
+        
+        //add classlist called stripethrough to do <p>
+        item.addEventListener('click', ()=> {
+            item.classList.add('strike');
+        }) 
 
-        deleteButton.addEventListener('click',()=>{
-            newSection.remove();
-        })
+        // const deleteButton = document.createElement('button')
+        // deleteButton.classList.add('deleteButton')
+        // deleteButton.textContent = 'delete';
+
+        
+        // deleteButton.addEventListener('click',()=>{
+        //     newSection.remove();
+        // })
 
         listSection.append(newSection)
-        newSection.append(checkbox, item, deleteButton)
+        newSection.append(item)
         
         document.getElementById('inputValue').value = ''
 
@@ -44,6 +50,22 @@ function addTask (){
 
 }
 
+
+
+
 function clearTheList(){
     document.querySelector('#listSection').innerHTML = '';
 }
+
+
+function clearTheCompletedList(){
+    const child = document.querySelectorAll('.strike')
+    for (i = 0; i < child.length; i++){
+        console.log(child[i].parentElement)
+        child[i].parentElement.remove();
+    }
+
+}
+
+const clearTheCompletedButton = document.querySelector('#clearTheCompletedTask')
+clearTheCompletedButton.addEventListener('click',clearTheCompletedList)

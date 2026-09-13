@@ -2,7 +2,7 @@
 - Full Website：https://todo-list-rc-alpha.vercel.app/
 ## How it is made:
 #### Tech Used:HTML,CSS and JavaScript
-### Why this stack is chosen:
+## Why this stack is chosen:
 - Choosign these stack because they can run natively in every browser without requiring complex environment.
 ## Optimizations:
 - The design

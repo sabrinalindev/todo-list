@@ -1,8 +1,8 @@
 # To Do List
 A lightweight to-do list that lets you add tasks, mark them as done, and clear them out.
 
-- Full Website: https://todo-list-rc-alpha.vercel.app/
-- This is what it looks like:
+- Website: todo-list-rc-alpha.vercel.app
+
 ![Adding Task](img/Adding%20Task.jpeg)
 ![Completed](img/completed.jpeg)
 ![deleted](img/deleted.jpeg)

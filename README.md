@@ -1,16 +1,16 @@
 # To Do List
-A lightweight to-do list that lets you add tasks, mark them as done, and clear them out。
+A lightweight to-do list that lets you add tasks, mark them as done, and clear them out.
 
 - Full Website: https://todo-list-rc-alpha.vercel.app/
-- This is how it looks like:
+- This is what it looks like:
 ![Adding Task](img/Adding%20Task.jpeg)
 ![Completed](img/completed.jpeg)
 ![deleted](img/deleted.jpeg)
 
 ## How it is made:
-#### Tech Used:HTML,CSS and JavaScript
+#### Tech Used: HTML, CSS, and JavaScript
 ## Why this stack is chosen:
-- Choosign these stack because they can run natively in every browser without requiring complex environment.
+- It can run natively in every browser.
 
 ## Getting Started
 

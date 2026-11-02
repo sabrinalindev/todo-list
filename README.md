@@ -1,47 +1,34 @@
-# To Do List
+# 📝 To Do List
+
 A lightweight to-do list that lets you add tasks, mark them as done, and clear them out.
 
-- Website: todo-list-rc-alpha.vercel.app
+## Demo
 
-<<<<<<< HEAD
-=======
-- Live Demo: 
-  ![site]https://todo-list-rc-alpha.vercel.app/
-- This is how it looks like:
->>>>>>> 7bc4d72 (Correct website link)
+Live: [https://todo-list-rc-alpha.vercel.app/](https://todo-list-rc-alpha.vercel.app/)
+
+## Screenshots
+
 ![Adding Task](img/Adding%20Task.jpeg)
 ![Completed](img/completed.jpeg)
-![deleted](img/deleted.jpeg)
-
-## How it is made:
-#### Tech Used: HTML, CSS, and JavaScript
-## Why this stack is chosen:
-- It can run natively in every browser.
-
-## Getting Started
-
-1. Clone this repository
-```bash
-   git clone https://github.com/sabrinalindev/todo-list.git
-```
-2. Open `index.html` in your browser
-
-## How to Use
-
-1. **Add a task** — type your task and add it to the list
-2. **Complete a task** — click on a task to mark it done (it'll show with a strikethrough)
-3. **Clear completed tasks** — remove finished tasks from the list
-4. **Clear all** — wipe the entire list clean and start fresh
 
 ## Features
 
-- Add new tasks
-- Click to mark a task complete (strikethrough style)
-- Clear only completed tasks
-- Clear the entire list
+- Add new tasks with the input box and the + button
+- Click a task to mark it as done (it gets a strikethrough)
+- Clear all completed tasks with one button
 
-## Optimizations
+## Built With
 
-- Add local storage so tasks persist even after refreshing the page
-- Add task categories or priority levels to help organize larger to-do lists
+- HTML5
+- CSS3
+- JavaScript
+- Deployed on [Vercel](https://vercel.com/)
 
+## Getting Started
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/sabrinalindev/todo-list.git
+   cd todo-list
+   ```
+2. Open `index.html` in your browser
